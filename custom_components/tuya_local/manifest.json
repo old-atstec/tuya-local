@@ -2,7 +2,8 @@
     "domain": "tuya_local",
     "name": "Tuya Local",
     "codeowners": [
-        "@make-all"
+        "@make-all",
+        "@old-atstec"
     ],
     "config_flow": true,
     "dependencies": [],

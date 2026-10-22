@@ -25,7 +25,7 @@ entities:
         range:
           min: 0
           max: 25
-      - id: 9
+      - id: 10
         name: current_temperature
         type: integer
         unit: C
@@ -45,14 +45,6 @@ entities:
             value: "5"
           - dps_val: 6
             value: "6"
-      - id: 111
-        name: hvac_action
-        type: string
-        mapping:
-          - dps_val: Heating
-            value: heating
-          - dps_val: Support
-            value: idle
   - entity: switch
     translation_key: sound
     category: config
@@ -85,7 +77,7 @@ entities:
     name: Outdoor temperature
     class: temperature
     dps:
-      - id: 10
+      - id: 9
         name: sensor
         type: integer
         unit: C
